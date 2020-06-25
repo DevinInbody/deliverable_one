@@ -1,0 +1,21 @@
+body {font-family: 'Roboto', sans-serif;}
+h1{color: #20a8b4;}
+.Header {background-color: #f2f2f2; position: absolute; top: 0%; width: 100%;height: 60%;}
+button {color: #fff; padding: 12px; border-radius: 10px; background-color: #20a8b4; width: 100%; text-align: center;}
+button:hover {background-color: #ff5c0f;}
+.Keyword {color: #ff5c0f;}
+.click{list-style-type: none;}
+.click:hover{color: #ff5c0f}
+.bodycontainer{height: 50%; width: 100%; position: absolute; top: 50%; transform: translateY(50%);}
+.Learn{width: 100%}
+.image{visibility: hidden;}
+@media screen and (min-width: 768px){
+    .Header{height: auto;}
+    .Title{float: left;display: flex; flex-direction: row;  vertical-align: middle;}
+    .optionscontainer{display: flex; flex-direction: row;float: right; vertical-align: middle;}
+.options{float: right; display: inline-flex;}
+.contact{height: auto; width: auto; vertical-align: middle;}
+.click{margin: 10px; vertical-align: middle;}
+.bodycontainer{float: right;height: 50%; width: 50%;Position: absolute; left: 10%; top: 25%}
+.Learn{Width: Auto}
+.image{position: absolute; top: 30%; right: 10%; visibility: visible;}}
